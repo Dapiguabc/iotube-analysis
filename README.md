@@ -1,46 +1,51 @@
-# Getting Started with Create React App
+# :sparkles: About
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped to supply an analytics dashboard for Iotube which
+is a cross-chain tool on Iotex.
 
-## Available Scripts
+You can view the demo at https://iotube-analysis.herokuapp.com/. Also, the data need time to auto collect as a result of the limit from the grpc API. 
 
-In the project directory, you can run:
+## :zap:“:racehorse: Datasource
+The data of Iotube is sorted into two parts: inflow and outflow.
+The inflow means that tokens were transformed into Iotex network as well as the outflow 
+means that tokens flowed out of the Iotex network to other networks.
 
-### `yarn start`
+1.How to get the inflow data?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Inflow: Parse the actions data of the validator contract:
+`submit(address,address,uint256,address,address,uint256,bytes)`
+`submit(address[],address[],uint256[],address[],address[],uint256[],bytes)`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Outflow: Parse the logs data of the cashier contract by the topic:
+`Receipt(address,uint256,address,address,uint256,uint256) => 85425e130ee5cbf9eea6de0d309f1fdd5f7a343aeb20ad4263f3e1305fd5b919`
 
-### `yarn test`
+2.How to determine the network where tokens flow out or flow in?
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+You can get the cashier address from the inflow/outflow data to ensure the network.
+
+3.How to count the num of users who have used Iotube？
+
+To extract the address of users from inflow/outflow data.
+
+4.How to get num of the witnessers who are playing an important role in Iotube?
+
+You can call the readContract method of the grpc API to get the num.
+
+## :construction: Usage
+In order to install dependencies, you should run: 
 
 ### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+For the fontend, you can compile it by run:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `yarn build`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+For the backend, you can run:
 
-### `yarn eject`
+### `ts-node ./src/server`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The port of the backend is process.env.PORT || 5557
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Then you should copy the fontend into the ./src/server/app.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Finally, you can open http://yoururl:yourport to view the dashboard.
