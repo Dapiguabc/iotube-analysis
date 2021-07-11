@@ -32,9 +32,9 @@ To extract the address of users from inflow/outflow data.
 You can call the readContract method of the grpc API to get the num.
 
 ## :pencil:Others
-·Token price is from [Coingecko](https://www.coingecko.com/zh)
+* Token price is from [Coingecko](https://www.coingecko.com/zh)
 
-·The graphql APi endpoint is /api-gateway/
+* The graphql API endpoint is /api-gateway/
 
 ## :hammer: Usage
 In order to install dependencies, you should run: 
