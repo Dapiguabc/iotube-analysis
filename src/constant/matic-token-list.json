@@ -1,0 +1,82 @@
+{
+  "MATIC": {
+    "id": "matic-network",
+    "address": "io13envp44hps9j85ulfvs6r6k99wagaky60pzl2c",
+    "name": "Matic",
+    "decimals": 18,
+    "symbol": "MATIC",
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/3890.png"
+  },
+  "WMATIC": {
+    "id": "wmatic",
+    "address": "io13envp44hps9j85ulfvs6r6k99wagaky60pzl2c",
+    "name": "Matic",
+    "decimals": 18,
+    "symbol": "MATIC",
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/3890.png"
+  },
+  "WETH-matic": {
+    "id": "",
+    "address": "io1v5m9d7zrs852xkdzdresqf3phwc5cchc5crylc",
+    "name": "Wrapped Ether",
+    "decimals": 18,
+    "symbol": "WETH-matic",
+    "logoURI": "/images/matic/WETH-matic.png"
+  },
+  "WBTC-matic": {
+    "id": "",
+    "address": "io10u9dv0ys93nmr7smzyptpkhlhzylt4wtqzrvld",
+    "name": "Wrapped BTC",
+    "decimals": 8,
+    "symbol": "WBTC-matic",
+    "logoURI": "/images/matic/WBTC-matic.png"
+  },
+  "DAI-matic": {
+    "id": "",
+    "address": "io1v25anp7t7nz954gdam2m27eqp4arr93jly4maa",
+    "name": "DAI Stablecoin",
+    "decimals": 18,
+    "symbol": "DAI-matic",
+    "logoURI": "/images/matic/DAI-matic.png"
+  },
+  "USDT-matic": {
+    "id": "",
+    "address": "io18ndhcj88pwz5a5h68yhzz6r4q8vykwhugq45ns",
+    "name": "Tether USD",
+    "decimals": 6,
+    "symbol": "USDT-matic",
+    "logoURI": "/images/matic/USDT-matic.png"
+  },
+  "USDC-matic": {
+    "id": "",
+    "address": "io1cpx682vazuf4s4amjd7jlwejr5akc65plgmdru",
+    "name": "USD Coin",
+    "decimals": 6,
+    "symbol": "USDC-matic",
+    "logoURI": "/images/matic/USDC-matic.png"
+  },
+  "Sushi-matic": {
+    "id": "",
+    "address": "io1990thrrc9cvxhjmsmx5pysznqs734h6uhxfxkq",
+    "name": "SushiToken",
+    "decimals": 18,
+    "symbol": "Sushi-matic",
+    "logoURI": "/images/matic/Sushi-matic.png"
+  },
+  "QUICK-matic": {
+    "id": "",
+    "address": "io1u346nz58mj5cjuj7ng3cn96upwam37v9axtju2",
+    "name": "Quickswap",
+    "decimals": 18,
+    "symbol": "QUICK-matic",
+    "logoURI": "/images/matic/QUICK-matic.png"
+  },
+  "AAVE-matic": {
+    "id": "",
+    "address": "io14tw8gyn3p8v5fcmvh4c0w8797ryjrlrvnsr6zf",
+    "name": "Aave Token",
+    "decimals": 18,
+    "symbol": "AAVE-matic",
+    "logoURI": "/images/matic/AAVE-matic.png"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "ETH": {
+    "id": "ethereum",
+    "address": "io1qfvgvmk6lpxkpqwlzanqx4atyzs86ryqjnfuad",
+    "name": "ioETH",
+    "decimals": 18,
+    "symbol": "ioETH",
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png"
+  },
+  "WETH": {
+    "id": "weth",
+    "address": "io1qfvgvmk6lpxkpqwlzanqx4atyzs86ryqjnfuad",
+    "name": "ioETH",
+    "decimals": 18,
+    "symbol": "ioETH",
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png"
+  },
+  "IOTX": {
+    "id": "iotex",
+    "address": "io15qr5fzpxsnp7garl4m7k355rafzqn8grrm0grz",
+    "name": "IoTeX Network",
+    "decimals": 18,
+    "symbol": "IOTX",
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/2777.png"
+  },
+  "WIOTX": {
+    "id": "wrapped-iotex",
+    "address": "io15qr5fzpxsnp7garl4m7k355rafzqn8grrm0grz",
+    "name": "Wrapped IOTX",
+    "decimals": 18,
+    "symbol": "WIOTX",
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/2777.png"
+  },
+  "WBTC": {
+    "id": "wrapped-bitcoin",
+    "address": "io1c7unwg8h8vph89xwqru4f7zfa4yy5002wxvlrm",
+    "name": "ioWBTC",
+    "decimals": 8,
+    "symbol": "ioWBTC",
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/3717.png"
+  },
+  "CYC": {
+    "id": "cyclops-treasure",
+    "address": "io1f4acssp65t6s90egjkzpvrdsrjjyysnvxgqjrh",
+    "name": "Cyclone Protocol",
+    "decimals": 18,
+    "symbol": "CYC",
+    "logoURI": "https://iotexscan.io/image/token/io1f4acssp65t6s90egjkzpvrdsrjjyysnvxgqjrh.png"
+  },
+  "BUSD": {
+    "id": "binance-usd",
+    "address": "io14nhfkywdfvl40evgsqnh43ev33q6he8yez8c8a",
+    "name": "Binance USD",
+    "decimals": 18,
+    "symbol": "ioBUSD",
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/4687.png"
+  },
+  "UNI": {
+    "id": "uniswap",
+    "address": "io1ahh04jn2zkqlug6feh7rpq75a75p3rj42hp4ch",
+    "name": "UNISWAP",
+    "decimals": 18,
+    "symbol": "ioUNI",
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/7083.png"
+  },
+  "PAXG": {
+    "id": "pax-gold",
+    "address": "io19fsq8e9krrlng4ay5gyq6q5tqfym28yq9ly0fz",
+    "name": "Paxos Gold",
+    "decimals": 18,
+    "symbol": "ioPAXG",
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/4705.png"
+  }
+}

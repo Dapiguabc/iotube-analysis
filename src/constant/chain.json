@@ -1,0 +1,17 @@
+{
+    "validator": "io10xr64as4krm5nufd5l2ddc43al6tl0smumkg7y",
+    "eth": {
+        "cashierIotex": "io1gsr52ahqzklaf7flqar8r0269f2utkw9349qg8",
+        "cashierEth": "0xa0fd7430852361931b23a31f84374ba3314e1682"
+
+    },
+    "bsc": {
+        "cashierIotex": "io1zjlng7je02kxyvjq4eavswp6uxvfvcnh2a0a3d",
+        "cashierBsc": "0x797f1465796fd89ea7135e76dbc7cdb136bba1ca"
+
+    },
+    "matic": {
+        "cashierIotex": "io12s9f9hv4zsr7umy5hxt6g0k0xr4x6pxdp5w998",
+        "cashierMatic": "0xf72CFb704d49aC7BB7FFa420AE5f084C671A29be"
+    }
+}

@@ -1,0 +1,35 @@
+{
+  "BNB": {
+    "id": "binancecoin",
+    "address": "io1jlnvfzr8lhper2xla8gknmxsqhgajq5ravu4wr",
+    "name": "Binance Coin",
+    "decimals": 18,
+    "symbol": "BNB-bsc",
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/7192.png"
+  },
+  "WBNB": {
+    "id": "wbnb",
+    "address": "io1jlnvfzr8lhper2xla8gknmxsqhgajq5ravu4wr",
+    "name": "Binance Coin",
+    "decimals": 18,
+    "symbol": "BNB-bsc",
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/1839.png"
+
+  },
+  "BUSD":{
+    "id": "binance-usd",
+    "address": "io1sj4uk2pjhesxxsd9qy52avwmgw4qzazfrypm04",
+    "name": "ioBUSD",
+    "decimals": 18,
+    "symbol": "BUSD-bsc",
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/4687.png"
+  },
+  "CYC": {
+    "id": "cyclone-protocol",
+    "address": "io1f4acssp65t6s90egjkzpvrdsrjjyysnvxgqjrh",
+    "name": "Cyclone Protocol",
+    "decimals": 18,
+    "symbol": "CYC",
+    "logoURI": "https://iotexscan.io/image/token/io1f4acssp65t6s90egjkzpvrdsrjjyysnvxgqjrh.png"
+  }
+}
