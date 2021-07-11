@@ -5,7 +5,7 @@ is a cross-chain tool on Iotex.
 
 You can view the demo at https://iotube-analysis.herokuapp.com/. Also, the data need time to auto collect as a result of the limit from the grpc API. 
 
-## :zap:“:racehorse: Datasource
+## :zap:“: Datasource
 The data of Iotube is sorted into two parts: inflow and outflow.
 The inflow means that tokens were transformed into Iotex network as well as the outflow 
 means that tokens flowed out of the Iotex network to other networks.
@@ -31,7 +31,12 @@ To extract the address of users from inflow/outflow data.
 
 You can call the readContract method of the grpc API to get the num.
 
-## :construction: Usage
+## :pencil:Others
+·Token price is from [Coingecko](https://www.coingecko.com/zh)
+
+·The graphql APi endpoint is /api-gateway/
+
+## :hammer: Usage
 In order to install dependencies, you should run: 
 
 ### `yarn build`
