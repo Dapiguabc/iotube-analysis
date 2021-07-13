@@ -3,7 +3,7 @@
 This project was bootstrapped to supply an analytics dashboard for Iotube which
 is a cross-chain tool on Iotex.
 
-You can view the demo at https://iotube-analysis.herokuapp.com/. Also, the data need time to auto collect as a result of the limit from the grpc API. 
+You can view the demo at http://150.158.167.68:5557/ or https://iotube-analysis.herokuapp.com/. Also, the data need time to auto collect as a result of the limit from the grpc API. The herokuapp will auto clean up the sqlite.
 
 ## :zap:“: Datasource
 The data of Iotube is sorted into two parts: inflow and outflow.

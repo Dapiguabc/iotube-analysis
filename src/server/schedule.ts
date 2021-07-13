@@ -37,12 +37,13 @@ export default class Schedule {
     }
     public async getTransactions(){
         let latestHeight = await this.getLatestBlockHeight();
-        //let lastHeight = await this.db.getLastBlockHeight();
-        let lastHeight = 11359056;
+        let lastHeight = await this.db.getLastBlockHeight();
+        console.log(lastHeight);
+        //let lastHeight = 12036698;
         let result = await this.server.gateways.antenna.getBlockMetas({
             byIndex: {
                 start: lastHeight+1,
-                count: 100,
+                count: 300,
             }
         });
         let outflow = await this.getIotubeLogs(lastHeight, latestHeight, result.blkMetas);
@@ -110,9 +111,9 @@ export default class Schedule {
         let  logsRequest = new GetLogsRequest();
         logsRequest.byRange = {
             fromBlock: lastHeight+1,
-            toBlock: lastHeight+101, //latestHeight
-            paginationSize: 100,
-            count: 100,
+            toBlock: lastHeight+301, //latestHeight
+            paginationSize: 300,
+            count: 300,
         }
         logsRequest.filter = new LogsFilter();
         // filter by cashier address on iotex.
